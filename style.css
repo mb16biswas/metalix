@@ -31,16 +31,19 @@ Version: 1.0
 /* BASIC TYPOGRAPHY */
 /*--------------------*/
 
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Gruppo&family=Monoton&family=Rubik+80s+Fade&family=Rye&family=Tilt+Prism&display=swap');
+
 body,
 html {
 	overflow-x:hidden;
 }
 
 body {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Gruppo', cursive;
 	font-size: 15px;
 	letter-spacing: 0.5px;
 	line-height: 1.5;
+	font-weight: 600;
 	color: #1c1b1b;
 }
 
@@ -79,12 +82,13 @@ h6 {
 
 
 h1 {
-	font-size: 38px;
+	font-size: 50px;
 }
 
 h2 {
 	font-size: 32px;
 	line-height: 1.13;
+	font-family: 'Cinzel Decorative', cursive;
 }
 
 h3 {
@@ -92,7 +96,7 @@ h3 {
 }
 
 h4 {
-	font-size: 22px;
+	font-size: 20px;
 }
 
 h5 {
@@ -221,7 +225,7 @@ button:focus {
 /*--------------------*/
 
 #mu-hero {
-	background-image: url("assets/images/Smooth Contour.gif");
+	background-image: url("assets/images/Smooth-Contour.gif");
 	display: inline;
 	float: left;
 	width: 100%;
@@ -234,14 +238,14 @@ button:focus {
 .mu-hero-overlay {
 	display: inline;
 	float: left;
-	opacity: 0.94;
+	opacity: 1;
 	width: 100%;
-	background: rgba( 0, 0, 0, 0.7 );
-	box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-	backdrop-filter: blur( 3px );
-	-webkit-backdrop-filter: blur( 3px );
-	border-radius: 10px;
-	border: 1px solid rgba( 255, 255, 255, 0.18 );
+	background: rgba(156, 156, 156, 0.837);
+	background: linear-gradient(180deg, rgb(12, 12, 12) 0%, rgba(43, 42, 42, 0.916) 45%, rgba(0,0,0,1) 100%);
+	box-shadow: 0 8px 32px 0 rgba(34, 34, 34, 0.37);
+	/* backdrop-filter: blur( 3px );
+	-webkit-backdrop-filter: blur( 3px ); */
+
 }
 
 .mu-logo-area {
@@ -261,6 +265,7 @@ button:focus {
 	margin-bottom: 30px;
 	color: whitesmoke;
 }
+
 .mu-logo img{
 	height: 20%;
 	width: 20%;
@@ -312,11 +317,12 @@ button:focus {
 	width: 100%;
 }
 
-.mu-hero-featured-content h1 {
+.mu-hero-featured-content h3 {
 	font-size: 45px;
 	color: #fff;
 	font-weight: 300;
 	margin-bottom: 15px;
+	font-family: 'Cinzel Decorative', cursive;
 }
 
 
@@ -331,14 +337,14 @@ button:focus {
 	color: black;
 	padding: 5px 10px;
 	display: inline-block;
-	margin-top: 10px;
+	
 	font-weight: 600;
-	background: rgba(243, 239, 239, 0.7);
-	box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-	backdrop-filter: blur( 4px );
-	-webkit-backdrop-filter: blur( 4px );
-	border-radius: 10px;
-	border: 1px solid rgba( 255, 255, 255, 0.18 );
+	background: rgb(255,194,12);
+	background: linear-gradient(180deg, #e3ffe7 0%, #d9e7ff 100%);   box-shadow: 0 8px 32px 0 rgb(0, 0, 0);
+	backdrop-filter: blur( 2px );
+	-webkit-backdrop-filter: blur( 2px );
+	border-radius: 3px;
+	border: 2px solid rgba(197, 197, 197, 0.51);
 	font-size: 20px;
 }
 
@@ -394,7 +400,7 @@ button:focus {
 	background-color: #fff;
 	border-color: #e7e7e7;
 	padding: 5px 0;
-	background: rgba( 255, 255, 255, 0.7 );
+	background: rgba(255, 255, 255, 0.936);
 	box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
 	backdrop-filter: blur( 5px );
 	-webkit-backdrop-filter: blur( 5px );
@@ -440,8 +446,9 @@ button:focus {
 
 
 #mu-about {
-	background-color: #fff;
+	background-color: #000000;
 	display: inline;
+	color: whitesmoke;
 	float: left;
 	width: 100%;
 
@@ -568,7 +575,10 @@ button:focus {
 	transition: all 0.5s;
 	width: 50px;
 }
-
+/* .nav-tabs a{
+	background-color: #0b0b0b;
+} */
+/* ff */
 .mu-video-close-btn:hover,
 .mu-video-close-btn:focus {
 	color: #fff;
@@ -608,10 +618,14 @@ button:focus {
 /*--------------------*/
 
 #mu-schedule {
-	background-color: #f8f8f8;
+	background-color: #ffffff;
 	display: inline;
 	float: left;
 	width: 100%;
+	background: linear-gradient(0deg, #56022c 0%, #ffec6e 100%);
+	background: linear-gradient(180deg, #fffcc9  0%,#ffa631 50%, #1c7161 100%);
+	
+	/* background: linear-gradient(180deg, #b20000 0%, #3A1C71 100%); */
 }
 
 .mu-schedule-area {
@@ -694,6 +708,13 @@ button:focus {
 	width: 400px;
 	padding: 15px;
 	text-align: left;
+	background: url('assets/images/m2.jpg');
+	box-shadow: 0 8px 32px 0 rgba(11, 0, 0, 0.419);
+	backdrop-filter: blur( 3px );
+	-webkit-backdrop-filter: blur( 3px );
+	border-radius: 10px;
+	color: whitesmoke;
+	border: 4px solid rgba(10, 10, 10, 0.437);
 }
 
 .mu-event-timeline ul li:nth-child(2n) .mu-single-event {
@@ -1372,6 +1393,7 @@ button:focus {
 	transition: all 0.2s ease-in-out 0s;
 	width: 35px;
 	height: 35px;
+	margin-top: 5px;
 	line-height: 35px;
 	font-size: 15px;
 }
