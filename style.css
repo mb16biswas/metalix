@@ -337,7 +337,7 @@ button:focus {
 	color: black;
 	padding: 5px 10px;
 	display: inline-block;
-	
+
 	font-weight: 600;
 	background: rgb(255,194,12);
 	background: linear-gradient(180deg, #e3ffe7 0%, #d9e7ff 100%);   box-shadow: 0 8px 32px 0 rgb(0, 0, 0);
@@ -624,7 +624,7 @@ button:focus {
 	width: 100%;
 	background: linear-gradient(0deg, #56022c 0%, #ffec6e 100%);
 	background: linear-gradient(180deg, #fffcc9  0%,#ffa631 50%, #1c7161 100%);
-	
+
 	/* background: linear-gradient(180deg, #b20000 0%, #3A1C71 100%); */
 }
 
@@ -1206,6 +1206,9 @@ button:focus {
 .mu-faq-content .panel-title {
 	text-align: left;
 	font-weight: 300;
+	font-size: 13px;
+	color: #000000;
+
 }
 
 .mu-faq-content .panel-title a {
