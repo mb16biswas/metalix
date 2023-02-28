@@ -608,9 +608,9 @@ button:focus {
 	display: block;
 }
 
-.mu-video-iframe-area iframe {
+/* .mu-video-iframe-area iframe {
 
-}
+} */
 
 
 /*--------------------*/
@@ -624,15 +624,25 @@ button:focus {
 	width: 100%;
 	background: linear-gradient(0deg, #56022c 0%, #ffec6e 100%);
 	background: linear-gradient(180deg, #fffcc9  0%,#ffa631 50%, #1c7161 100%);
-
-	/* background: linear-gradient(180deg, #b20000 0%, #3A1C71 100%); */
+	background: linear-gradient(180deg, #ffffff  0%,#2a2a2a 50%, #000000 100%);
+	background: linear-gradient(130deg, #F6F2F2 0%, #D9D9D9 100%);
+	
+	background: url('https://i.pinimg.com/originals/6b/95/09/6b950940394959ac5cb499c4625cdf93.gif');
+	background-size: cover;
+	background-attachment: fixed;
 }
+#mu-schedule .overlay{
 
+	background: linear-gradient(180deg, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0.96) 45%, rgb(255, 255, 255) 100%);
+	
+}
 .mu-schedule-area {
 	display: inline;
 	float: left;
 	padding: 100px 0;
 	width: 100%;
+
+
 }
 
 .mu-schedule-content-area  {
@@ -957,11 +967,11 @@ button:focus {
 
 .mu-single-price-head .mu-currency {
 	font-weight: bold;
-	font-size: 30px;
+	font-size: 20px;
 }
 
 .mu-single-price-head .mu-rate {
-	font-size: 60px;
+	font-size: 40px;
 	font-weight: bold;
 	line-height: 0.9;
 	letter-spacing: 3px;
