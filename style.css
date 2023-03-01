@@ -498,7 +498,7 @@ button:focus {
 
 
 #mu-video {
-	background-image: url("assets/images/about-video-bg.jpg");
+	background-image: url("assets/images/mllxhi.png");
 	background-attachment: fixed;
 	background-position: center center;
 	-webkit-background-size: cover;
@@ -513,12 +513,16 @@ button:focus {
 	float: left;
 	opacity: 0.85;
 	width: 100%;
+	background: linear-gradient(180deg,#000000f4 0%, #ffffff00 100%);
+	box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+	backdrop-filter: blur( 2px );
+	-webkit-backdrop-filter: blur(2px );
 }
 
 .mu-video-area {
 	display: inline;
 	float: left;
-	padding: 200px 0;
+	padding: 300px 0;
 	text-align: center;
 	width: 100%;
 }
@@ -536,7 +540,7 @@ button:focus {
 .mu-video-play-btn,
 .mu-video-close-btn {
 	color: #fff;
-	font-size: 22px;
+	font-size: 20px;
 	border: 2px solid #fff;
 	border-radius: 50%;
 	width: 60px;
@@ -544,7 +548,7 @@ button:focus {
 	height: 60px;
 	line-height: 55px;
 	text-align: center;
-	margin-top: 100px;
+	margin-top: 80px;
 	-webkit-transition: all 0.5s;
 	-o-transition: all 0.5s;
 	transition: all 0.5s;
@@ -1645,7 +1649,7 @@ button:focus {
 	}
 
 	.mu-video-iframe-area {
-		padding: 5% 5%;
+		padding: 35% 5%;
 	}
 
 	.mu-video-iframe-area iframe {
@@ -1731,7 +1735,7 @@ button:focus {
 	}
 
 	.mu-video-iframe-area {
-		padding: 10% 5%;
+		padding: 50% 5%;
 	}
 
 	.mu-video-iframe-area iframe {
@@ -1850,7 +1854,7 @@ button:focus {
 @media (max-width: 320px) {
 
 	.mu-video-iframe-area {
-		padding: 30% 5%;
+		padding: 60% 5%;
 	}
 
 	.mu-event-timeline ul li .mu-single-event,
